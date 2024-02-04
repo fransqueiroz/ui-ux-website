@@ -39,13 +39,13 @@ export function Faq(){
     return (
         <div className="flex flex-col w-full py-[48px] lg:py-[60px] lg:flex-row gap-x-6">
             <div className='lg:w-1/3 lg:py-[32px] lg:pr-[56px]'>
-                <h3 className="text-[#EB2891] text-[14px] font-medium lg:text-base">
+                <h3 className="pink-color text-[14px] font-medium lg:text-base">
                     Frequently Asked Questions
                 </h3>
-                <h1 className="py-4 text-2xl font-medium text-[#172026] lg:text-[42px] lg:leading-[58px]">
+                <h1 className="py-4 text-2xl font-medium principal-color lg:text-[42px] lg:leading-[58px]">
                     Let’s clarify some of your questions
                 </h1>
-                <p className="text-[#36485C] pb-[24px]">
+                <p className="main-color pb-[24px]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 </p>
             </div>
@@ -65,7 +65,7 @@ export function Faq(){
                             >
                                 <Accordion.Header>
                                     <Accordion.Trigger className='flex w-full items-center justify-between'>
-                                        <p className='text-left font-medium text-[#172026] lg:text-[18px]'>
+                                        <p className='text-left font-medium principal-color lg:text-lg'>
                                             {item.question}
                                         </p>
                                         <span>
@@ -74,7 +74,7 @@ export function Faq(){
                                     </Accordion.Trigger>
                                 </Accordion.Header>
                                 <Accordion.Content>
-                                    <p className='pt-2 text-[#36485C]'>{item.answer}</p>
+                                    <p className='pt-2 main-color'>{item.answer}</p>
                                 </Accordion.Content>
                             </Accordion.Item>
                         </div>

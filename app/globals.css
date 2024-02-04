@@ -2,4 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+/*personalizando classes com valores padrões*/
+.main-color {
+    color: #36485C;
+}
 
+.second-color {
+    color: #5F7896;
+}
+
+.principal-color {
+    color: #172026;
+}
+
+.pink-color{
+    color: #EB2891;
+}
+
+.blue-color{
+    color: #0085ff;
+}
+
+.blue-2-color{
+    color: #4328EB;
+}
+
+.gray-color{
+    color: #F4F8FA;
+}
+
+.gradient-content {
+    /*usa se o apply para adicionar configurações do proprio tailwind*/
+    @apply bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500;
+}

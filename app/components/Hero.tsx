@@ -14,9 +14,9 @@ import Cluth from "../../public/assets/Clutch.svg";
 export function Hero() {
     return (
         <div className="pt-4 lg:pt-10">
-            <div className="px-[20px] lg:px-[280px]">
-                <h1 className="text-center text-[32px] lg:text-[64px] leading-[40px] lg:leading-[72px] font-medium text-[#172026]">Start monitoring your website like a pro</h1>
-                <p className="text-center pt-6 text-[#36485C] lg:text-[18px] lg:leading-7">
+            <div className="px-5 lg:px-[280px]">
+                <h1 className="text-center text-[32px] lg:text-[64px] leading-[40px] lg:leading-[72px] font-medium principal-color">Start monitoring your website like a pro</h1>
+                <p className="text-center pt-6 main-color lg:text-lg lg:leading-7">
                     Get a bird's eye view with our customizable dashboard. Stay on top of things! Revamp your work process with our game-changing feature. Boost productivity and efficiency!
                 </p>
 
@@ -24,7 +24,7 @@ export function Hero() {
                     <button className="bg-[#4328EB] w-1/2 py-4 px-8 text-white rounded-[4px] lg:w-fit">
                         Try for Free
                     </button>
-                    <button className="w-1/2 text-[#4328EB] font-medium flex items-center justify-center gap-x-2 lg:w-fit">
+                    <button className="w-1/2 blue-2-color font-medium flex items-center justify-center gap-x-2 lg:w-fit">
                         View Pricing 
                         <span>
                             <Image src={BlueArrow} alt="Learn More"/>
@@ -39,8 +39,8 @@ export function Hero() {
                     <Image src={HeroImage} alt="Hero Image" className="-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]"/>
 
                     <div className="flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between lg:px-20">
-                        <p className="text-[#fff] text-center lg:text-[18px]">Trusted by these companies</p>
-                        <div className="grid grid-cols-3 items-center justify-center justify-items-center px-[20px] align-middle lg:grid-cols-5 ">
+                        <p className="text-white text-center lg:text-lg">Trusted by these companies</p>
+                        <div className="grid grid-cols-3 items-center justify-center justify-items-center px-5 align-middle lg:grid-cols-5 ">
                             <Image src={Google} alt="Google Companies"/>
                             <Image src={Slack} alt="Slack Companies"/>
                             <Image src={Trustpilot} alt="Trustpilot Companies"/>

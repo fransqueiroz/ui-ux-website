@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Navbar/>
       <Hero/>
-      <div className="px-[20px] lg:container lg:px-20 mx-auto">
+      <div className="px-5 lg:container lg:px-20 mx-auto">
         <Features/>
         <Faq/>
         <Pricing/>

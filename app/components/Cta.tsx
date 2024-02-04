@@ -3,9 +3,9 @@ import WhiteArrow from "../../public/assets/arrow.png"
 
 export function Cta() {
     return (
-        <div className="w-full rounded-[8px] bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500 py-[56px] px-[52px] text-center lg:my-[60px] lg:px-[324px] lg:py-[89px]">
+        <div className="w-full rounded-[8px] gradient-content py-[56px] px-[52px] text-center lg:my-[60px] lg:px-[324px] lg:py-[89px]">
             <h1 className="text-white text-[32px] font-medium lg:text-[56px] leading-[64px]">Monitor your website like a pro</h1>
-            <p className="text-white pt-6 lg:pt[48px] lg:text-[18px]">
+            <p className="text-white pt-6 lg:pt[48px] lg:text-lg">
                 Join over 800+ happy site owners boosting productivity and efficiency!
             </p>
 
