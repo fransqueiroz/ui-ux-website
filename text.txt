@@ -1,0 +1,11 @@
+Doc Tailwindcss
+https://tailwindcss.com/docs/guides/nextjs
+
+Lib para o Accordion
+https://www.radix-ui.com/primitives/docs/components/accordion
+
+Video de REferencia 
+
+https://www.youtube.com/watch?v=pQ7tm_7S_Us
+
+assistido até o minuto 1:36:34
