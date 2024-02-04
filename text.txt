@@ -11,5 +11,3 @@ bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500
 Video de REferencia 
 
 https://www.youtube.com/watch?v=pQ7tm_7S_Us
-
-assistido até o minuto 1:36:34
